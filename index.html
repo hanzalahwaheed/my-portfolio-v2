@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanzalah Waheed</title>
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/dp4.jpg" type="image/x-icon" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="assets/images/dp4.jpg" alt="Hanzalah_Waheed" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Hanzalah Waheed">Hanzalah Waheed</h1>
+
+          <p class="title">Web Developer</p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hanzalah.w@gmail.com" class="contact-link">hanzalah.w@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Bangalore, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator">
+        </div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/hanzalah-waheed-b16456231/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/waheed_hanzalah" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/hanzalahwaheed" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello folks, I'm a Fullstack Developer 🚀 and Computer Science student at DSCE, Bangalore 📚. I'm on my
+            journey to become a skilled Software Developer ⚙️. I'm passionate about Anime 🎮 and love building and
+            contributing to projects.
+          </p>
+          <p>
+            Specializing in the MERN Stack, I actively explore emerging technologies like TypeScript and NextJS. As an
+            Open Source Contributor, I welcome opportunities to connect and collaboratively delve into the dynamic realm
+            of technology. Let's explore and innovate together!
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  I am proficient in the MERN web development technologies and learning more technologies right now.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  I like to build User Friendly Designs using tools such as Figma and Canva.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+      </article>
+
+      <!--
+        - #Skills
+      -->
+      <section>
+        <article class="skills" data-page="skills">
+          <header>
+            <h2 class="h2 article-title">Skills</h2>
+          </header>
+
+          <section>
+            <img width="48" height="48" src="https://img.icons8.com/color/100/html-5--v1.png" alt="html-5--v1" />
+            <img width="48" height="48" src="https://img.icons8.com/color/100/css3.png" alt="css3" />
+            <img width="48" height="48" src="https://img.icons8.com/color/100/javascript--v1.png"
+              alt="javascript--v1" />
+            <img width="48" height="48" src="https://img.icons8.com/color/100/firebase.png" alt="firebase" />
+            <img width="48" height="48" src="https://img.icons8.com/fluency/100/c-plus-plus-logo.png"
+              alt="c-plus-plus-logo" />
+            <img width="48" height="48" src="https://img.icons8.com/color/100/python--v1.png" alt="python--v1" />
+            <img width="48" height="48" src="https://img.icons8.com/color/100/my-sql.png" alt="my-sql" />
+          </section>
+        </article>
+      </section>
+
+      <!-- Resume -->
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <!-- <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Indira Gandhi Delhi Technical University
+              </h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                Masters of Computer Application
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Indraprastha College for Women, University of Delhi
+              </h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                BSc. Computer Science Honors
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Kendriya Vidyalaya</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">High School class (XII)</p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Achievements</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+
+                Second Position in National Level Online PowerPoint Presentation Competition
+              </h4>
+
+              <span> KVA DAV College for Women, Karnal</span>
+
+              <p class="timeline-text">
+                The topic of the Presentation was : "5G Technology: Pros & Cons"
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Dr. S.N. Goenka Memorial Scholarship Highest CGPA</h4>
+
+              <span>Indraprastha College for Women, DU</span>
+
+              <p class="timeline-text">
+                Scholarship for highest cgpa in BSC. Computer Science Hons. in the year 2020-21Scholarship</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Second Position in the University</h4>
+
+              <span>University of Delhi</span>
+
+              <p class="timeline-text">Second Position in the University of Delhi for BSc. Computer Science Hons Part-1
+                in year 2020-21</p>
+            </li>
+
+
+          </ol>
+        </section>
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Volunteer/Contribution</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Open Source Contributor
+              </h4>
+
+              <span>Sept. 2023 — Present</span>
+
+              <p class="timeline-text"><b> #2 Contributor </b><a
+                  href="https://github.com/warmachine028/nike/">warmachine028/nike</a> </p>
+              <p class="timeline-text">Added the 'go-to-top' FAB button using JavaScript.</p>
+              <p class="timeline-text">Added the number counter on Landing Page to enhance the UI/UX.</p>
+              <p class="timeline-text">Fixed a bug that caused inconsistency in styles on larger and smaller screens.
+              </p>
+              <p class="timeline-text">Enhanced the Input Field Design and Added Active State Effect in Contact-Us
+                section.</p>
+
+              <br>
+              <p class="timeline-text"><b> CSS- UI/UX Contributor </b><a
+                  href="https://github.com/KendallDoesCoding/youtubers-birthdays">youtubers-birthdays</a> </p>
+              <p class="timeline-text">Entirely restyled the the the UI/UX of the Home page, the AddYoutuber and
+                RemoveYoutuber Page.</p>
+              </p>
+              <br>
+              <p class="timeline-text"><b> #13 Contributor </b><a
+                  href="https://github.com/sarmadhamdani02/WebGames">WebGames</a> </p>
+              <p class="timeline-text">Added a media query for screens between 701px and 1050px, specifically targeting
+                tablet-sized screens. Thus, Fixed the navbar and overall responsiveness.</p>
+              <p class="timeline-text">Equally padded the navbar elements from both right and left side.</p>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Web Developer - EdJustice Foundation
+              </h4>
+
+              <span>Oct 2022 - Jan 2023</span>
+
+              <p class="timeline-text">
+                Enhanced the existing UI/UX. Uploaded blogs received from the Content team on the Wix Platform.
+              </p>
+            </li>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Recording Audiobooks - Visionaries</h4>
+
+              <span>July 2021 — present</span>
+
+              <p class="timeline-text">Recorded Audio lectures for students, who are visually imparied, in both Hindi
+                and English Language.</p>
+            </li>
+
+          </ol> -->
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/ayushichoudhary-19/WebSummarizer" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Fund Easy" height="100" width="10" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">WebSummarizer</h3>
+
+                <p class="project-category"></p>
+                <span class="project-category">Project</span>
+                <br />
+
+
+                <p class="project-category">
+                  This Chrome extension enables users to extract and summarize the content of the currently opened web
+                  page.
+                  It utilizes the Cohere.ai API to generate concise summaries of web page content.
+                  The summarized content is then displayed in a popup within the Chrome browser.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/ayushichoudhary-19/parallaxdining.github.io" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Easy-Care" height="80" width="120" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Parallax Dining</h3>
+
+                <p class="project-category"></p>
+                <span class="project-category">Project</span>
+                <br />
+                <p class="project-category">
+                  The website provide simple, well-defined navigation with a clear user experience and quality product
+                  visuals
+                  and descriptions. The project includes 6 web pages that look and work faultlessly on every phone,
+                  tablet, desktop,
+                  and internet browser. It is build using HTML, CSS, JS, Bootstrap, MySql and PHP.
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/ayushichoudhary-19/SudokuSolver" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="ERC-20" height="80" width="120" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Sudoku Solver</h3>
+                <p class="project-category">
+                  Project
+                </p>
+                <br />
+                <p class="project-category">
+                  A web application designed to solve Sudoku puzzles using the powerful Backtracking algorithm.
+                  This interactive tool is built with JavaScript, providing an intuitive way to solve Sudoku puzzles
+                  and gain insights into this classic number puzzle game. </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://github.com/Shubham1769/ERC-721-Token-" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="ER-721" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Taarangana</h3>
+
+                <p class="project-category">Project</p>
+                <br />
+                <p class="project-category">
+                  This project is a demo website of our college's annual cultural fest and was solely created for the
+                  recruitment
+                  task of Taarangana.
+                  It has Interactive Design, Image Gallery, Responsive Layout and Animations.
+                </p>
+              </a>
+
+            </li>
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://github.com/ayushichoudhary-19/finivesta-demo">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="Funder" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Finivesta-Demo</h3>
+
+                <p class="project-category">Projects</p>
+                <br />
+                <p class="project-category">
+                  A demo website for College's Finance Society, created for recruitment processes. Tech Stack used is
+                  HTML,CSS, BootStrap and Js. </p>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+    </div>
+
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
