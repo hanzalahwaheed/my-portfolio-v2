@@ -953,9 +953,26 @@ embed[type="application/pdf"] {
 
 .logos {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Set 4 columns with equal width */
-  gap: 5px; /* Adjust the gap between columns */
 }
+
+@media screen and (min-width: 768px) {
+  .logos {
+    grid-template-columns: repeat(2, 1fr); /* Set 2 columns with equal width */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logos {
+    grid-template-columns: repeat(4, 1fr); /* Set 3 columns with equal width */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logos {
+    grid-template-columns: repeat(5, 1fr); /* Set 4 columns with equal width */
+  }
+}
+
 
 /*-----------------------------------*\
     #PORTFOLIO
